@@ -2,10 +2,12 @@
     font-family: Futura;
     src: url(./Futura-Bold.ttf);
 }
+
 @font-face {
     font-family: Gilroy;
     src: url(./Gilroy-Medium.ttf);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +20,8 @@
     background-color: #000;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
 }
@@ -166,15 +169,44 @@ body {
     scale: 1.1;
 }
 
-#page2 .elem .dets {
+#page2 .elem .dets1 {
+    height: 60px;
+    border-radius: 50px;
+    width: 70%;
+    position: absolute;
+    z-index: 9;
+    background-color: #f5dfcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+}
+#page2 .elem .dets2 {
     height: 60px;
     border-radius: 50px;
     width: 70%;
     position: absolute;
     z-index: 9;
     background-color: rgb(229, 156, 186);
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+}
+#page2 .elem .dets3 {
+    height: 60px;
+    border-radius: 50px;
+    width: 70%;
+    position: absolute;
+    z-index: 9;
+    background-color: #f5dfcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 10px;
 }
 
 #page3 {
@@ -194,6 +226,7 @@ body {
     /* border: 2px solid #000; */
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -201,7 +234,9 @@ body {
 .child img {
     height: 100%;
 }
-
+.arrow{
+    font-size: 30px;
+}
 
 @media (max-width:600px) {
 
@@ -240,7 +275,8 @@ body {
         height: 67px;
         width: 80px;
     }
-    #nav #twogoodlogo{
+
+    #nav #twogoodlogo {
         height: 40px;
         margin-left: -20px;
     }
@@ -313,7 +349,7 @@ body {
         width: 70%;
         position: absolute;
         z-index: 9;
-        background-color: rgb(229, 156, 186);
+
 
     }
 
